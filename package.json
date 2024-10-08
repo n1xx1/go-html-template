@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build:go": "go run github.com/gopherjs/gopherjs build gopherjshtmltemplate -o out/lib.cjs",
-    "build:lib": "node ./script/build.js",
+    "build:lib": "node ./scripts/build.js",
     "build": "pnpm run build:go && pnpm run build:lib"
   },
   "keywords": [],
